@@ -7,7 +7,7 @@ A easy to use module which reads an excel file with given columns and converts i
 ```c#
 
  var excelConverter = new ExcelConverter();
- excelConverter.FilePath = "filename.xlxs";
+ excelConverter.FilePath = "filename.xlsx";
  excelConverter.Columns = new List<string>()
             {
                 "Id",
