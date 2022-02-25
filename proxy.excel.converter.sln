@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proxy.excel.converter", "proxy.excel.converter\proxy.excel.converter.csproj", "{6F17E600-5686-4691-8850-156039FBADA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proxy.excel.converter.tests", "proxy.excel.converter.tests\proxy.excel.converter.tests.csproj", "{A0DC3D91-1ACF-4768-8ABB-417401953926}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F17E600-5686-4691-8850-156039FBADA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F17E600-5686-4691-8850-156039FBADA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F17E600-5686-4691-8850-156039FBADA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F17E600-5686-4691-8850-156039FBADA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0DC3D91-1ACF-4768-8ABB-417401953926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DC3D91-1ACF-4768-8ABB-417401953926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DC3D91-1ACF-4768-8ABB-417401953926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DC3D91-1ACF-4768-8ABB-417401953926}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
