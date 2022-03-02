@@ -11,7 +11,7 @@ namespace proxy.excel.converter.tests
         public async void Read_Value_From_Excel()
         {
             var excelConverter = new ExcelConverter();
-            excelConverter.FilePath = "/Users/ekin/OneDrive/LibraryOS_Current.xlsx";
+            excelConverter.FilePath = "file.xlsx";
             excelConverter.Columns = new List<string>()
             {
                 "Id",
@@ -29,7 +29,7 @@ namespace proxy.excel.converter.tests
             };
 
             var expected = await excelConverter.ToJson();
-            await File.WriteAllTextAsync("/Users/ekin/OneDrive/test.json", expected);
+            await File.WriteAllTextAsync("test.json", expected);
 
             Assert.NotNull(expected);
         }
@@ -65,7 +65,7 @@ namespace proxy.excel.converter.tests
         {
             var excelConverter = new ExcelConverter
             {
-                FilePath =  "/Users/ekin/OneDrive/LibraryOS_Current.xlsx",
+                FilePath =  "file.xlsx",
                 Columns = new List<string>()
                 {
                     "Id",
